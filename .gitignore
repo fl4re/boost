@@ -9,3 +9,4 @@
 /project-config.jam*
 /stage
 /user-config.jam
+node_modules
