@@ -1,10 +1,10 @@
 echo "About to build boost"
-pwd
+TOPLEVEL=$(pwd)
 sh bootstrap.sh
 ./b2 \
 headers \
 -sBOOST_ROOT=. \
--sZLIB_SOURCE="zlib" \
+-sZLIB_SOURCE="$TOPLEVEL/zlib" \
 toolset=clang \
 cxxflags="-std=c++11 -stdlib=libc++ -mmacosx-version-min=10.12 -fvisibility-inlines-hidden" \
 architecture=x86 \
