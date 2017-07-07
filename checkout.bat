@@ -29,9 +29,6 @@ git clean -fx || exit /b 1
 git submodule foreach --recursive git reset --hard || exit /b 1
 git submodule foreach --recursive git clean -fx || exit /b 1
 
-REM git checkout
-git checkout %the_ref%
-
 REM submodules
 git submodule sync --recursive || exit /b 1
 git submodule update --init --recursive || exit /b 1
