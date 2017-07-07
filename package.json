@@ -56,6 +56,8 @@
       "boost/smart_ptr/**",
       "boost/system",
       "boost/system/**",
+      "boost/thread",
+      "boost/thread/**",
       "boost/type_traits",
       "boost/type_traits/**",
       "boost/utility",
