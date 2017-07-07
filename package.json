@@ -1,6 +1,6 @@
 {
   "name": "@sb/boost",
-  "version": "1.60.10",
+  "version": "1.60.11",
   "description": "Boost",
   "private": false,
   "binary": {
@@ -68,5 +68,3 @@
     "@sb/prades": "^0.4.1"
   }
 }
-
-
