@@ -1,0 +1,23 @@
+{
+  "name": "@sb/boost",
+  "version": "1.60.10",
+  "description": "Boost",
+  "private": false,
+  "binary": {
+    "file": "{package_name}/{package_version}/boost-{package_version}-{platform}-{arch}.tar.gz",
+    "host": "https://registry-node.starbreeze.com/-/releases",
+    "os": [
+      "win32",
+      "darwin",
+      "linux"
+    ],
+    "path": [
+    ]
+  },
+  "scripts": {
+    "install": "prades install"
+  },
+  "dependencies": {
+    "@sb/prades": "^0.4.1"
+  }
+}
