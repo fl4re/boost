@@ -16,6 +16,7 @@
       "stage/lib",
       "stage/lib/**",
       "boost",
+      "boost/*.h",
       "boost/*.hpp",
       "boost/algorithm",
       "boost/algorithm/**",
