@@ -25,9 +25,6 @@ git -c core.askpass=true fetch --tags --progress https://github.com/fl4re/boost.
 git reset --hard && git clean -ffdx
 git submodule foreach --recursive "git reset --hard && git clean -ffdx && git checkout -- ."
 
-# git checkout
-git checkout $the_ref
-
 # submodules
 git submodule sync --recursive
 git submodule update --init --recursive
