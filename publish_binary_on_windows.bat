@@ -1,5 +1,5 @@
 setlocal EnableDelayedExpansion
-exit /b 0
+
 git rev-parse --is-inside-work-tree
 if errorlevel 1 exit /b %errorlevel% 
 

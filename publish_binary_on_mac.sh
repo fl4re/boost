@@ -1,5 +1,5 @@
 #!/bin/bash -xe
-exit 0
+
 # make sure we are inside a git checkout
 git rev-parse --is-inside-work-tree
 

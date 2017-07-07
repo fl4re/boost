@@ -12,6 +12,53 @@
       "linux"
     ],
     "path": [
+      "stage",
+      "stage/lib",
+      "stage/lib/**",
+      "boost",
+      "boost/*.hpp",
+      "boost/algorithm",
+      "boost/algorithm/**",
+      "boost/bind",
+      "boost/bind/**",
+      "boost/concept",
+      "boost/concept/**",
+      "boost/config",
+      "boost/config/**",
+      "boost/core",
+      "boost/core/**",
+      "boost/detail",
+      "boost/detail/**",
+      "boost/exception",
+      "boost/exception/**",
+      "boost/filesystem",
+      "boost/filesystem/**",
+      "boost/function",
+      "boost/function/**",
+      "boost/functional",
+      "boost/functional/**",
+      "boost/io",
+      "boost/io/**",
+      "boost/iterator",
+      "boost/iterator/**",
+      "boost/move",
+      "boost/move/**",
+      "boost/mpl",
+      "boost/mpl/**",
+      "boost/predef",
+      "boost/predef/**",
+      "boost/preprocessor",
+      "boost/preprocessor/**",
+      "boost/range",
+      "boost/range/**",
+      "boost/smart_ptr",
+      "boost/smart_ptr/**",
+      "boost/system",
+      "boost/system/**",
+      "boost/type_traits",
+      "boost/type_traits/**",
+      "boost/utility",
+      "boost/utility/**"
     ]
   },
   "scripts": {
@@ -21,3 +68,5 @@
     "@sb/prades": "^0.4.1"
   }
 }
+
+
