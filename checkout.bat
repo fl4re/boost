@@ -22,7 +22,7 @@ git rev-parse --is-inside-work-tree || exit /b 1
 REM fetch & checkout
 
 REM git fetch
-git -c core.askpass=true fetch --tags --progress https://github.com/fl4re/%repo_name%.git %the_ref% || exit /b 1
+git -c core.askpass=true fetch --tags --progress https://github.com/fl4re/boost.git %the_ref% || exit /b 1
 
 git reset --hard || exit /b 1
 git clean -fx || exit /b 1
