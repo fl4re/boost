@@ -1,6 +1,6 @@
 {
   "name": "@sb/boost",
-  "version": "1.60.13",
+  "version": "1.60.14",
   "description": "Boost",
   "private": false,
   "binary": {
