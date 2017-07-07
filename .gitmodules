@@ -502,3 +502,6 @@
 	path = libs/vmd
 	url = https://github.com/boostorg/vmd.git
 	fetchRecurseSubmodules = on-demand
+[submodule "zlib"]
+	path = zlib
+	url = https://github.com/madler/zlib.git
