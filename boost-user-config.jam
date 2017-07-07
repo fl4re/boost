@@ -1,0 +1,8 @@
+# -------------------
+# MSVC configuration
+# -------------------
+
+# MCB: Always update the compiler setup cache in %TEMP% to future-proof against toolchain updates
+# MCB: See https://github.com/boostorg/build/blob/develop/src/tools/msvc.jam#L740
+
+using msvc : : : <rewrite-setup-scripts>always ;
